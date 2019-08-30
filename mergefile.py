@@ -6,10 +6,8 @@
 """
 
 
-# a append   r read
-
 file_original=["train.txt","val.txt","trainval.txt","test.txt"]
-file_append=["train_append.txt","val_append.txt","trainval.txt","test.txt"]
+file_append=["train_append.txt","val_append.txt","trainval_append.txt","test_append.txt"]
 
 
 #c denotes content
@@ -17,7 +15,7 @@ file_append=["train_append.txt","val_append.txt","trainval.txt","test.txt"]
 #o denotes original file
 
 
-for i in range(5):
+for i in range(4):
     print(i)
     o=open(file_original[i],'a')
     a=open(file_append[i],'r')
