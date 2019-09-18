@@ -87,3 +87,9 @@ trainval.txt：训练和验证集
 
 
 以上工具可以各自独立运行，根据需要使用。
+
+**8数据集格式转换**
+
+python3 coco2014_to_voc.py --anno_file=/media/santiago/dataset/coco/COCO2014/annotations/instances_train2014.json \
+                         --type=instance \
+                         --output_dir=/media/santiago/dataset/voc
